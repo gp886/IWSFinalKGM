@@ -1,0 +1,234 @@
+*{
+   /* border: 1px solid blue;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+ body
+{
+	height: 100%;
+	flex-shrink: 0;
+	background-color: #f0f0f0;
+	
+}
+.container
+{
+	height: 100%;
+	flex-shrink: 0;
+	background-color: #f0f0f0;
+
+}
+#heading
+{
+	background-color: #f6b102;
+	border-radius: 8px;
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+}
+#website_name
+{
+	width: 70%;
+	/*display: inline-block;*/
+	font-size: 4em;
+	font-family: 'Atomic Age', cursive;
+	
+}
+
+#main_section
+{
+	margin-top: 80px;
+	/*-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    filter: blur(20px);*/
+
+	
+
+}
+#topic_grid
+{
+	display: grid;
+	grid-template-columns: auto auto auto;	
+	align-content: center;
+	padding-left: 10%;
+
+}
+
+.topic
+{
+
+	font-size: 40px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	margin-bottom: 30px;
+	color: white;
+	font-weight: bold;	
+	border: 3px solid;
+	border-radius: 10px;
+
+}
+
+.imgBox
+{   
+    padding:1px;
+	height:200px;
+	width:200px; 
+	box-shadow: 8px 5px 20px 0 rgba(0,0,0,0.7);
+}
+
+#login_btn
+{
+	background-color:#2874A6;
+	color:#FFF;
+	border-radius:5px
+}
+
+.cancelbtn
+{
+	background-color:#F00;
+	color:#FFF;
+	border-radius:5px
+}
+
+.signupbtn
+{
+	background-color:#229954;
+	color:#FFF;
+	border-radius:5px
+}
+
+#topic_1
+{
+	background-color: #FFF;
+}
+
+#topic_5
+{
+	background-color: #6b9f2a;
+}
+#topic_2
+{
+	background-color: #D6EAF8;
+}
+#topic_6
+{
+	background-color: #21618C;
+}
+#topic_4
+{
+	background-color: #E74C3C;
+}
+#topic_3
+{
+	background-color: #505050;
+}
+
+#login_button
+{
+	margin-top: 80px;
+	margin-left: 35%;
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 300px;
+	background-color: #1E8449;
+	color: #FFF;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.modal-open {
+  main_section {
+    
+  }
+}
+#dialog_box
+{
+	width: 70%;
+	
+
+}
+#box_body
+{
+	margin-top: 0px;
+	padding: 0px;
+	
+}
+#box
+{
+	
+}
+#login
+{
+	 float:right;
+	 margin: 40px;
+	 
+}
+#login_form
+{
+	align-items: center;
+	
+}
+#login_form input,select
+{
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+}
+
+#userID_label_login
+{
+	padding-right: 52px;
+}
+#password_label_login
+{
+	padding-right: 35px;
+}
+
+#signup
+{
+	float: left;
+	padding: 40px;
+	
+}
+
+#signup_form input,select
+{
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+}
+#name_label_signup
+{
+	padding-right: 98px;
+}
+#userID_label_signup
+{
+	padding-right: 87px;
+}
+#pass_label_signup
+{
+	padding-right: 70px;
+}
+#passcon_label_signup
+{
+	padding-right: 12px;
+}
+#email_label_signup
+{
+	padding-right: 81px;
+}
+#interest_label_signup
+{
+	padding-right: 77px;
+}
+#interest_input_signup
+{
+	width: 200px;
+	 padding: 12px 20px;
+	  margin: 8px 0;
+	   display: inline-block;
+	    border: 1px solid #ccc;
+
+}
